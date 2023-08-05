@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+	color: #8E7F7F;
+}
+
+.post-link {
+	display: block;
+	font-size: 26px;
+	color: #8E7F7F;
+	font-weight: 600;
+}
+.post-link:hover {
+	color: #BBBBBB;
+	text-decoration: none;
+}
+
+.post-list-heading {
+	font-size: 20px;
+	color: #737373;
+	text-transform: lowercase;
+	letter-spacing: 0.4em;
+}
+
+.post-title {
+	font-size: 38px;
+	letter-spacing: -1px;
+	line-height: 1;
+	color: #8E7F7F;
+	font-weight: 600;
+}
+@media screen and (max-width: 800px) {
+	.post-title {
+		font-size: 32px;
+	}
+}
